@@ -1,0 +1,39 @@
+{
+  "name": "time-tracking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development && node server.js",
+    "go": "webpack-dev-server --open --hot --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "dayjs": "^1.8.15",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "sequelize": "^5.10.1",
+    "sqlite3": "^4.0.9",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.38.0"
+  }
+}
